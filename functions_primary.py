@@ -12,7 +12,8 @@
 #
 # Using the documentation above of built in functions, complete the following operations:
 #   1 - Print the absolute value of a negative number.
-#   2 - Save the hexadecimal value of 21 to a variable. Print this variable while describing it.
+#   2 - Save the hexadecimal value of 21 to a variable. 
+#Print this variable while describing it.
 #   3 - Print the id of the variable holding the hexadecimal value of 21.
 #   4 - Print 2 ^ 5 using the function instead of **.
 #   5 - Print the number 3.75123 after being rounded to the nearest integer.
@@ -26,7 +27,8 @@
 
 print('The absolute value of -15 is:', abs(-15))
 
-
+x=hexadecimal(21)
+ 
 # --------------- Section 2 --------------- #
 
 # 1 | Function Definitions no Parameters
@@ -43,8 +45,15 @@ print('The absolute value of -15 is:', abs(-15))
 #   1 - Call each function once.
 #
 # WRITE CODE BELOW
+def my_name():
+    print("my name is isaiah")
 
+my_name()
 
+def my_animal():
+    print("lion,cat,dog")
+
+my_animal()
 # 2 | Function Definitions with Parameters
 #
 # Relevant Documentation:
